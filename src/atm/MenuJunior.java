@@ -196,7 +196,7 @@ public class MenuJunior extends javax.swing.JFrame {
     //penarikan
     private void jButton2ActionPerformed(java.awt.event.ActionEvent evt) {
         if (Junior.count >= 3) {
-            JOptionPane.showMessageDialog(rootPane, "Anda sudah mencapai batas maksimal penarikan untuk hari ini." + "\n" + "Saldo anda saat ini : " + junior.getSaldo() + "\n");
+            JOptionPane.showMessageDialog(rootPane, "Anda sudah mencapai batas maksimal penarikan untuk hari ini." + "\n" + "Saldo anda saat ini : " + jawaban + "\n");
         }
         else {
             masukan = Integer.parseInt(JOptionPane.showInputDialog("Masukkan saldo : "));
