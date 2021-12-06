@@ -9,3 +9,14 @@ Anjungan tunai mandiri (automated teller machine atau automatic teller machine) 
 - Pada kelas haji, tidak ada menu transfer
 - Pada kelas junior, tarik uang hanya bisa 3x
 - untuk kelas haji, tarik uang tidak boleh lebih dari 10% saldo, kalau lebih berarti dipotong 50rb
+
+### Anggota kelompok
+Keua kelompok :
+- Yoan rifqy candra
+
+Anggota kelompok :
+- Ahmad chairiansyah
+- Farrah fahira murzani
+- Syarifah fathimah az-zahra
+- Iftahul fadhlan
+
