@@ -6,6 +6,9 @@
 
 package atm.src.atm;
 
+import java.awt.Dimension;
+import java.awt.Toolkit;
+
 /**
  *
  * @author ASUS
@@ -15,6 +18,15 @@ public class Home extends javax.swing.JFrame {
     /** Creates new form Home */
     public Home() {
         initComponents();
+        
+        // mengambil ukuran layar
+        Dimension layar = Toolkit.getDefaultToolkit().getScreenSize();
+
+        // membuat titik x dan y
+        int x = layar.width / 2  - this.getSize().width / 2;
+        int y = layar.height / 2 - this.getSize().height / 2;
+
+        this.setLocation(x, y);
     }
 
     /** This method is called from within the constructor to
