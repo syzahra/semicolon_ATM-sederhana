@@ -3,7 +3,10 @@ package atm.src.atm;
 import atm.src.function.JenisTabungan;
 import atm.src.function.Junior;
 
+import java.awt.Dimension;
+import java.awt.Toolkit;
 import javax.swing.JOptionPane;
+
 /**
  *
  * @author ASUS
@@ -18,6 +21,15 @@ public class MenuJunior extends javax.swing.JFrame {
      */
     public MenuJunior() {
         initComponents();
+        
+        // mengambil ukuran layar
+        Dimension layar = Toolkit.getDefaultToolkit().getScreenSize();
+
+        // membuat titik x dan y
+        int x = layar.width / 2  - this.getSize().width / 2;
+        int y = layar.height / 2 - this.getSize().height / 2;
+
+        this.setLocation(x, y);
     }
 
     /**
